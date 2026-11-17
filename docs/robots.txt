@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://liampcurran.github.io/sitemap.xml
+Sitemap: https://liampcurran.github.io/ashgrove-heating/sitemap.xml
+Sitemap: https://liampcurran.github.io/tallyloop/sitemap.xml
+Sitemap: https://liampcurran.github.io/kettlepine-coffee/sitemap.xml

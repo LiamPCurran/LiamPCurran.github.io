@@ -39,7 +39,7 @@ WS = P / "writing-samples" / "pdf"
 SC = P / "screenshots" / "covers"
 
 WORK = [
-    {"img": cover(SC / "02-tallyloop-cover.png", "rescue"), "tag": "Website rescue · before & after",
+    {"img": cover(SC / "02-tallyloop-cover.png", "rescue"), "tag": "Case study · build, audit, rebuild",
      "title": "A good-looking site Google could barely read",
      "text": "A startup site I designed, wrote and built, first shipped as a JavaScript-only app, then audited and rebuilt as fast, crawlable pages. Google went from receiving 1 word to the full page.",
      "stats": [("36 → 96", "speed score"), ("10.4 s → 1.2 s", "load time")],
@@ -56,6 +56,11 @@ WORK = [
      "text": "Built for calls and quote requests: click-to-call everywhere, instant quote forms, service pages, reviews and local schema.",
      "stats": [("100 / 100", "speed / SEO"), ("1.1 s", "load time")],
      "links": [("Live site", f"{BASE}/ashgrove-heating/"), ("SEO article", f"{BASE}/ashgrove-heating/blog/heat-pump-vs-furnace-ottawa.html")]},
+    {"img": cover(SC / "09-automation-cover.png", "automation"), "tag": "Lead automation · n8n",
+     "title": "Every quote request logged, sorted and answered",
+     "text": "A workflow for the same home-service site: it cleans each lead, flags no-heat and gas/CO calls as urgent, logs it to a lead sheet, alerts the right person and replies to the customer.",
+     "stats": [("< 0.5 s", "form to emails"), ("4 / 4", "test leads routed right")],
+     "links": [("Case study (PDF)", pdf(CS / "04-lead-automation-demo.pdf"))]},
 ]
 WRITING = [
     ("seo", SC / "7-seo-article-cover.png", "SEO article + content brief", "1,800 words on heat pumps vs furnaces in Ottawa, with the brief behind it.",

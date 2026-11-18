@@ -12,7 +12,7 @@ ROOT = Path(__file__).parent
 P = ROOT.parent
 OUT = ROOT / "docs"
 BASE = "https://liampcurran.github.io"
-UPWORK_URL = ""  # e.g. "https://www.upwork.com/freelancers/~0123..." (fill in after the profile is published)
+UPWORK_URL = "https://www.upwork.com/freelancers/liampcurran"
 GITHUB = "https://github.com/LiamPCurran"
 TODAY = date.today().isoformat()
 

@@ -41,7 +41,7 @@ SC = P / "screenshots" / "covers"
 WORK = [
     {"img": cover(SC / "02-tallyloop-cover.png", "rescue"), "tag": "Website rescue · before & after",
      "title": "A good-looking site Google could barely read",
-     "text": "A JavaScript-only startup site rebuilt as fast, crawlable pages, keeping the same design. Google went from receiving 1 word to the full page.",
+     "text": "A startup site I designed, wrote and built, first shipped as a JavaScript-only app, then audited and rebuilt as fast, crawlable pages. Google went from receiving 1 word to the full page.",
      "stats": [("36 → 96", "speed score"), ("10.4 s → 1.2 s", "load time")],
      "links": [("Case study (PDF)", pdf(CS / "01-website-rescue-case-study.pdf")), ("SEO audit (PDF)", pdf(CS / "02-seo-audit-tallyloop.pdf")),
                ("Live after", f"{BASE}/tallyloop/"), ("Live before", f"{BASE}/tallyloop/before/")]},
